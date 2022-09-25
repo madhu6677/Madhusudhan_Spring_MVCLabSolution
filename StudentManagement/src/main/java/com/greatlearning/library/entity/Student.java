@@ -78,7 +78,7 @@ public class Student {
 		this.country = country;
 	}
 
-	// define tostring
+	// define to string
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", department=" + department + ", country=" + country + "]";

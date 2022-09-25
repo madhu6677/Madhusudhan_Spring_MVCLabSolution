@@ -65,7 +65,7 @@
 							class="btn btn-info btn-sm"> Update </a> <!-- Add "delete" button/link -->
 							<a href="/StudentManagement/students/delete?studentId=${tempStudent.id}"
 							class="btn btn-danger btn-sm"
-							onclick="if (!(confirm('Are you sure you want to delete this employee?'))) return false">
+							onclick="if (!(confirm('Are you sure you want to delete this Student?'))) return false">
 								Delete </a>
 
 						</td>

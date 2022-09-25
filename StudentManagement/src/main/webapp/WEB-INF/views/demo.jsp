@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h3>Welcome to the Student Management portal</h3>
+<h3>Welcome to the Student Management APP</h3>
 <a href = "students/list">Click here to go to the main page</a>
 </body>
 </html>

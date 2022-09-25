@@ -26,10 +26,20 @@
 
 	<div class="container">
 
-		<h3>"LAB Session"</h3>
+		<style>  
+h3,p{  
+    background-color:#50D050;  
+}  
+ h3 { text-align: center}
+</style>  
+  
+<body>  
+<h3>Student Details</h3>
+  
+</body>  
 		<hr>
 
-		<p class="h4 mb-4">Student Employee</p>
+		<p class="h4 mb-4">Student Details</p>
 
 		<form action="/StudentManagement/students/save" method="POST">
 

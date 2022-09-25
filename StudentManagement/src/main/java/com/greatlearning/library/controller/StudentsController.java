@@ -98,7 +98,7 @@ public class StudentsController {
 		if (name.trim().isEmpty() && country.trim().isEmpty()) {
 			return "redirect:/students/list";
 		} else {
-			// else, search by first name and last name
+			// else, search name and country
 			List<Student> theStudents = studentService.searchBy(name, country);
 
 			// add to the spring model

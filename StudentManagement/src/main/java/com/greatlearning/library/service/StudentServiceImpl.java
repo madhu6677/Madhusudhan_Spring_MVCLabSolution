@@ -98,7 +98,7 @@ public class StudentServiceImpl implements StudentService {
 		String query = "";
 		String Country = null;
 		if (Name.length() != 0 && Country.length() != 0)
-			query = "from Student where name like '%" + Name + "%' or author like '%" + Country + "%'";
+			query = "from Student where name like '%" + Name + "%' or Country like '%" + Country + "%'";
 		else if (Name.length() != 0)
 			query = "from Student where name like '%" + Name + "%'";
 		else if (Country.length() != 0)
